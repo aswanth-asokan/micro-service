@@ -21,4 +21,4 @@ artifacts:
   files:
     - appspec.yml
     - script/
-    - auth/
+    - '**/*'
