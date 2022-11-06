@@ -21,5 +21,4 @@ artifacts:
   files:
     - appspec.yml
     - script/
-    - '**/*'
-  base-directory: / 
+    - '*/*' 
