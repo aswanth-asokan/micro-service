@@ -10,6 +10,8 @@ phases:
     commands:
       - echo Build started on `date`
       - npm install
+  path: /auth 
+
   post_build:
     commands:
       - echo build completed
