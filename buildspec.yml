@@ -9,7 +9,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - npm install /auth
+      - npm install
+    files:
+      - '**/*'
+    base-directory: auth
 
   post_build:
     commands:
