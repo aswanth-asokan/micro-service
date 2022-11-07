@@ -11,8 +11,6 @@ phases:
       - echo Build started on `date`
       - cd auth
       - npm install
-    base-directory: /auth
-
   post_build:
     commands:
       - echo build completed
