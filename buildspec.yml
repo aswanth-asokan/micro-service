@@ -21,3 +21,4 @@ artifacts:
     - script/
     - auth/
     - index.js
+    - node_modules/**/*
