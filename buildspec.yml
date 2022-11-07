@@ -7,9 +7,9 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
   build:
-      - location: scripts/build.sh
-        timeout: 300
-        runas: ubuntu
+    commands:
+      - echo Build started on `date`
+      - npm install
   post_build:
     commands:
       - echo build completed
