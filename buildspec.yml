@@ -5,11 +5,11 @@ phases:
       nodejs: 14
   pre_build:
     commands:
-      - cd auth/
+      - echo installing
   build:
     commands:
       - echo Build started on `date`
-      - npm install /auth/**/
+      - cd auth && npm install
   post_build:
     commands:
       - echo build completed
