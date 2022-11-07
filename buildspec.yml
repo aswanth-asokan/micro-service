@@ -5,7 +5,7 @@ phases:
       nodejs: 14
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
+      - cd auth/
   build:
     commands:
       - echo Build started on `date`
