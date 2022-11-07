@@ -9,8 +9,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - npm install --global lerna 
-      - lerna bootstrap --concurrency=1 -- --production
+      - cd /auth && npm install 
   post_build:
     commands:
       - echo build completed
