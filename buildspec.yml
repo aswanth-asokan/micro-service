@@ -20,4 +20,4 @@ artifacts:
     - appspec.yml
     - script/
     - auth/
-    - '**/*'
+    - '/*'
