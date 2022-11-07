@@ -9,7 +9,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - cd micro-service/auth && npm install
+      - npm install --global lerna 
+      - lerna bootstrap --concurrency=1 -- --production
   post_build:
     commands:
       - echo build completed
