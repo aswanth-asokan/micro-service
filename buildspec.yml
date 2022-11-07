@@ -17,7 +17,7 @@ phases:
 artifacts:
   files:
     - appspec.yml
-    - script/
+    - scripts/
     - auth/
     - index.js
     - node_modules/**/*
