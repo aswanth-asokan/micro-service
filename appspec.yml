@@ -2,7 +2,7 @@ version: 0.0
 os: linux 
 files:
   - source: /
-    destination: /var/www/fcn-api-ms
+    destination: /var/www/micro-service
 file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
