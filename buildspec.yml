@@ -20,4 +20,5 @@ artifacts:
     - appspec.yml
     - script/
     - auth/
+    - index.js
     - '/*'
